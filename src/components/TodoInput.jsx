@@ -12,12 +12,12 @@ export function TodoInput(props) {
 
     return (
         <div className='input-container'>
-            <input value={inputValue} onChange={(e) => {
-                setInputValue(e.target.value)
-                addEventListener("keypress", (e) => {
-                    if (e.key === "Enter") {checkAdd(inputValue)}
-                })
-            }} placeholder='Add task'/>
+            <input value={inputValue}
+                   onChange={(e) => {
+                     setInputValue(e.target.value)}}
+                   onKeyPress={(e) => {
+                     if (e.key === "Enter") checkAdd(inputValue)}}
+                   placeholder='Add task'/>
             <button onClick={() => {
                 checkAdd(inputValue)
             }}>

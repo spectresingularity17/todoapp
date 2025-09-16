@@ -17,23 +17,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --background-primary: white;
+    --background-primary: #eeffe5;
     --background-secondary: '';
-    --background-tertiary: #dbeafe;
+    --background-tertiary: #c5ffd8;
     --background-accent: '';
     --background-compliment: '';
     --background-gradient: '';
-    --background-muted: #f8fafc;
+    --background-muted: #fafffa;
 
-    --color-primary: #030615;
+    --color-primary: #031504;
     --color-secondary: '';
     --color-tertiary: '';
     --color-accent: '';
     --color-compliment: '';
     --color-gradient: '';
     --color-muted: ;
-    --color-link: #2563eb;
-    --color-link-transparent: rgba(37, 99, 235, 0.1);
+    --color-link: #32eb25;
+    --color-link-transparent: rgba(50, 235, 37, 0.1);
 
     --color-success: '';
     --color-warning: '';
@@ -41,12 +41,12 @@
     --color-info: '';
     --color-highlight: #fef9c3;
 
-    --gradient-start: #9580ff;
-    --gradient-end: #80ffea;
+    --gradient-start: #23a300;
+    --gradient-end: #02a58a;
 
-    --border-primary: #f1f5f9;
-    --border-secondary: #bed1e7;
-    --border-highlight: #64748b;
+    --border-primary: #f1f9f1;
+    --border-secondary: #c1e7be;
+    --border-highlight: #688b64;
     --border-tertiary: '';
 
     --shadow-dark: '';
@@ -65,36 +65,36 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-primary: #05070f;
-        --background-secondary: #0e101e;
-        --background-tertiary: #121424;
+        --background-primary: #151515;
+        --background-secondary: #091208;
+        --background-tertiary: #152412;
         --background-accent: '';
         --background-compliment: '';
         --background-gradient: '';
-        --background-muted: #1a1e32;
+        --background-muted: #0f150f;
 
-        --color-primary: white;
+        --color-primary: #0dd873;
         --color-secondary: '';
         --color-tertiary: '';
         --color-accent: '';
         --color-compliment: '';
         --color-gradient: '';
         --color-muted: ;
-        --color-link: #60a5fa;
-        --color-link-transparent: rgba(37, 99, 235, 0.1);
+        --color-link: #0a8f05;
+        --color-link-transparent: rgba(57, 235, 37, 0.1);
 
         --color-success: '';
         --color-warning: '';
         --color-error: '';
         --color-info: '';
-        --color-highlight: #fef9c3;
+        --color-highlight: #fedac3;
 
-        --gradient-start: #9580ff;
-        --gradient-end: #80ffea;
+        --gradient-start: #70fd81;
+        --gradient-end: #007c3e;
 
-        --border-primary: #29325b;
-        --border-secondary: #323c71;
-        --border-highlight: #4649af;
+        --border-primary: #375b29;
+        --border-secondary: #347132;
+        --border-highlight: #49af46;
         --border-tertiary: '';
 
         --shadow-dark: '';

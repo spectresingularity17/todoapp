@@ -7,7 +7,7 @@ import {useState, useEffect} from "react";
 function App() {
 
     const [todos, setTodos] = useState([
-        {input: "Hello! Add your first todo!<0", complete: true }
+        {input: "Hello! Add your first todo!∩0", complete: true }
     ]);
 
     const [totalTodos, setTotal] = useState(0);
@@ -15,7 +15,7 @@ function App() {
     const [selectedTab, setSelectedTab] = useState('Open');
 
     function handleAddTodo(newTodo) {
-        const newTodoList = [...todos, {input: newTodo+`<${totalTodos+1}`, complete: false}];
+        const newTodoList = [...todos, {input: newTodo+`∩${totalTodos+1}`, complete: false}];
         const newTotalTodos = totalTodos + 1
         setTodos(newTodoList)
         setTotal(newTotalTodos)
@@ -51,9 +51,8 @@ function App() {
 
     function indexRemover(input){
         let newInput = input;
-        while (newInput.includes('<')){
+        while (newInput.includes('∩')){
             newInput = newInput.slice(0, -1)
-            setTimeout(() => {}, 5000)
         }
         return newInput;
     }

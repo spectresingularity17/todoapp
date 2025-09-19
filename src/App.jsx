@@ -63,7 +63,7 @@ function App() {
             return
         }
         let db = JSON.parse(localStorage.getItem('todo-app'))
-        setTotal(Number(db.totalTodos))
+        setTotal(Number(db.totalTodos)+1)
         setTodos(db.todos)
     }, [])
 

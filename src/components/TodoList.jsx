@@ -11,7 +11,6 @@ export function TodoList(props){
     return (
         <>
             {filterTodosList.map((todo, todoIndex) => {
-
                 return (
                     <TodoCard key={todoIndex}
                               todoIndex={todos.findIndex(val => val.input === todo.input)}
